@@ -69,7 +69,7 @@ public class WebMvcConfiguration extends WebMvcConfigurationSupport {
                 .title("苍穹外卖项目接口文档")
                 .version("2.0")
                 .description("苍穹外卖项目接口文档")
-                .build();™™
+                .build();
         Docket docket = new Docket(DocumentationType.SWAGGER_2)
                 .groupName("用户端接口")
                 .apiInfo(apiInfo)
